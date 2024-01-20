@@ -2,8 +2,13 @@
 
 ## Frotnend
 
+```
+mkdir frontend
+cd frontend
+--Create your react frontend however you want. Preferaably Vite with Tailwind
 npm install axios
-
+--Start your react frontend (npm run dev) or (npm start) 
+```
 
 ## Backend
 
@@ -16,9 +21,9 @@ npm install axios
 
 ```
 
-setup your frontend env 
+# setup your frontend env 
 
-and then setup your backend env
+# setup your backend env
 
 
 ```
@@ -35,9 +40,10 @@ module.exports = cloudinary;
 ```
 
 ## Backend ENV should look like
+```
 CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
+```
 
-
-and from there you should be good to go using these backend routes
+# and from there you should be good to go using these backend routes
